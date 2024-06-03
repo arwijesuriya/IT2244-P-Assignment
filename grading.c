@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <stdlib.h>
+#include <sys/wait.h>
 
 void calculate_grade(int mark, char *grade) {
     if (mark > 74) {
